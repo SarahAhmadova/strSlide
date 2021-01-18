@@ -1,0 +1,70 @@
+body {
+  background-color: #cacaca;
+}
+
+body {
+  width: 100%;
+  min-height: 450px;
+  margin: 0 auto 30px;
+  padding: 10px 0;
+  background: url(https://mattboldt.com/demos/typed-js/img/header-bg.jpg) top center no-repeat fixed;
+}
+
+.box {
+  margin: 50px auto;
+  max-width: 530px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box .text-box {
+  padding: 10px;
+  color: #f0f0f0;
+  text-shadow: #000 0px 1px 0px;
+  font-family: "Consolas", "Courier New", "Courier";
+  font-size: 1.45em;
+  line-height: 1.40em;
+  font-weight: 500;
+}
+
+.box .text-box .cursor {
+  font-weight: 900;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  -webkit-animation: cursorAnime .7s infinite;
+          animation: cursorAnime .7s infinite;
+}
+
+.box .title {
+  padding: 5px 0;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 0.7em;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+          box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+  border-bottom: #6a6a6a 1px solid;
+  color: #6a6a6a;
+}
+
+@-webkit-keyframes cursorAnime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes cursorAnime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
